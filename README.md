@@ -159,7 +159,6 @@ Bộ khung này hợp nhất với **OpenClaw** — AI Agent mã nguồn mở. C
 
 **🚀 Cài đặt & hạ tầng**
 - [openclaw-setup](https://github.com/tuanminhhole/openclaw-setup) — Setup AI bot miễn phí bằng OpenClaw + Google Gemini (Telegram/Docker)
-- [9router](https://github.com/tuanminhhole/9router) — Kết nối mọi AI code tool (Claude Code, Cursor, Copilot, Codex, Gemini, OpenClaw...) tới 40+ provider & 100+ model
 
 **🔌 Plugin (runtime)**
 - [openclaw-telegram-multibot-relay](https://github.com/tuanminhhole/openclaw-telegram-multibot-relay) — Multibot Telegram relay, delegation & cron nhắc lịch native
