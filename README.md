@@ -120,7 +120,7 @@ Chi tiết đầy đủ: đọc **[Hiến pháp Vault](99_Hệ_thống/vault-con
 
 ---
 
-## 🤖 (Tùy chọn) Kết nối AI Agent — điểm ăn tiền
+## 🤖 (Tùy chọn) Kết nối AI Agent
 
 Vault được thiết kế để **OpenClaw** vận hành cùng bạn: tự quét vault theo lịch, đề xuất dọn dẹp/ôn tập, và **nhắn tin hỏi ý kiến bạn qua Zalo/Telegram trước khi làm gì** (không bao giờ tự xóa file).
 
@@ -150,3 +150,29 @@ Repo kèm sẵn cấu hình Graph (`.obsidian/graph.json`): mỗi phòng một m
 
 Làm bởi **tuanminhhole (Kent)** như một món quà mở cho cộng đồng người Việt yêu Obsidian & PKM.
 Mọi góp ý / PR cải tiến khung đều được hoan nghênh. Nếu thấy hữu ích, hãy ⭐ repo để nhiều người biết tới nhé!
+
+---
+
+## 🦞 Hệ sinh thái OpenClaw (cùng tác giả)
+
+Bộ khung này hợp nhất với **OpenClaw** — AI Agent mã nguồn mở. Các repo liên quan để bạn dựng "bộ não tự vận hành" hoàn chỉnh:
+
+**🚀 Cài đặt & hạ tầng**
+- [openclaw-setup](https://github.com/tuanminhhole/openclaw-setup) — Setup AI bot miễn phí bằng OpenClaw + Google Gemini (Telegram/Docker)
+- [9router](https://github.com/tuanminhhole/9router) — Kết nối mọi AI code tool (Claude Code, Cursor, Copilot, Codex, Gemini, OpenClaw...) tới 40+ provider & 100+ model
+
+**🔌 Plugin (runtime)**
+- [openclaw-telegram-multibot-relay](https://github.com/tuanminhhole/openclaw-telegram-multibot-relay) — Multibot Telegram relay, delegation & cron nhắc lịch native
+- [openclaw-zalo-mod](https://github.com/tuanminhhole/openclaw-zalo-mod) — Quản lý nhóm Zalo zero-token (slash command, anti-spam, warn, memory)
+- [openclaw-browser-automation](https://github.com/tuanminhhole/openclaw-browser-automation) — Smart Search & Browser Automation
+- [openclaw-facebook-crawler](https://github.com/tuanminhhole/openclaw-facebook-crawler) — Crawl dữ liệu Facebook
+- [openclaw-n8n-facebook-poster](https://github.com/tuanminhhole/openclaw-n8n-facebook-poster) — Tự động đăng Facebook qua n8n
+
+**🧩 Skill**
+- [openclaw-skill-super-memory](https://github.com/tuanminhhole/openclaw-skill-super-memory) — Bộ nhớ nâng cao cho agent
+- [openclaw-skill-infographic](https://github.com/tuanminhhole/openclaw-skill-infographic) — Tạo infographic
+- [openclaw-skill-zalo-sticker-mention](https://github.com/tuanminhhole/openclaw-skill-zalo-sticker-mention) — Sticker & mention trên Zalo
+
+<div align="center">
+<sub>🧠 <b>vietbrain</b> · một phần của hệ sinh thái <a href="https://github.com/tuanminhhole">tuanminhhole (Kent)</a> · MIT License</sub>
+</div>
