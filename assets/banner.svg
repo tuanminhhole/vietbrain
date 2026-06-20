@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="vietbrain banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f0a1e"/>
+      <stop offset="0.55" stop-color="#241046"/>
+      <stop offset="1" stop-color="#0c2b2a"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a371f7"/>
+      <stop offset="0.5" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#2db7a3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+  <!-- decorative nodes -->
+  <g opacity="0.5" stroke="#58a6ff" stroke-width="1.5">
+    <line x1="980" y1="70" x2="1060" y2="120"/>
+    <line x1="1060" y1="120" x2="1010" y2="200"/>
+    <line x1="1010" y1="200" x2="1100" y2="230"/>
+    <line x1="980" y1="70" x2="1010" y2="200"/>
+    <line x1="1060" y1="120" x2="1130" y2="80"/>
+  </g>
+  <g>
+    <circle cx="980" cy="70" r="10" fill="#a371f7"/>
+    <circle cx="1060" cy="120" r="13" fill="#58a6ff"/>
+    <circle cx="1010" cy="200" r="9" fill="#2db7a3"/>
+    <circle cx="1100" cy="230" r="11" fill="#f0a020"/>
+    <circle cx="1130" cy="80" r="7" fill="#3fb950"/>
+  </g>
+  <text x="70" y="130" font-family="Segoe UI, Arial, sans-serif" font-size="78" font-weight="800" fill="url(#title)">🧠 vietbrain</text>
+  <text x="74" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" fill="#e6edf3">Bộ Não Thứ Hai tiếng Việt cho Obsidian</text>
+  <text x="74" y="226" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#9aa4b2">Tải về → mở bằng Obsidian → dùng được ngay.</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">
+    <rect x="74" y="252" width="150" height="34" rx="17" fill="#7c3aed"/><text x="92" y="274" fill="#fff">PARA</text>
+    <rect x="234" y="252" width="170" height="34" rx="17" fill="#2db7a3"/><text x="252" y="274" fill="#06241f">Zettelkasten</text>
+    <rect x="414" y="252" width="110" height="34" rx="17" fill="#f0a020"/><text x="432" y="274" fill="#3a2600">MOC</text>
+    <rect x="534" y="252" width="120" height="34" rx="17" fill="#3fb950"/><text x="552" y="274" fill="#08230f">CODE</text>
+    <rect x="664" y="252" width="200" height="34" rx="17" fill="#1f6feb"/><text x="682" y="274" fill="#fff">OpenClaw ready</text>
+  </g>
+</svg>
