@@ -22,7 +22,7 @@
 
 `vietbrain` là **bộ khung Obsidian** giúp bạn dựng một **Bộ não thứ hai** (Second Brain) bài bản trong 5 phút, **hoàn toàn bằng tiếng Việt**. Nó kết hợp những phương pháp quản lý tri thức tốt nhất thế giới — **PARA** (Tiago Forte), **Zettelkasten** (Niklas Luhmann), **MOC** (Maps of Content) và quy trình **CODE** — rồi gói lại theo mô hình **"Phòng Tri Thức"** dễ hiểu cho người Việt.
 
-Điểm đặc biệt: vault được thiết kế để **một AI Agent (OpenClaw) vận hành cùng bạn** — tự dọn dẹp, tự nhắc ôn tập theo lịch và nhắn tin hỏi ý kiến bạn qua Zalo. (Phần AI là **tùy chọn** — không cài vẫn dùng tốt.)
+Điểm đặc biệt: vault được thiết kế để **một AI Agent (OpenClaw) vận hành cùng bạn** — tự dọn dẹp, tự nhắc ôn tập theo lịch và nhắn tin hỏi ý kiến bạn qua Zalo/Telegram. (Phần AI là **tùy chọn** — không cài vẫn dùng tốt.)
 
 > 🇻🇳 Một món quà mở cho cộng đồng. Tải về, xài, chỉnh theo ý bạn — thoải mái.
 
@@ -33,7 +33,7 @@
 | Tiêu chí | Template phổ biến khác | **vietbrain** |
 |---|:---:|:---:|
 | **Ngôn ngữ** | Tiếng Anh | ✅ **Tiếng Việt hoàn toàn** |
-| **AI** | CLI gọi thủ công (Claude Code/Copilot) | ✅ **AI Agent always-on** (OpenClaw) + **Zalo** + **cron tự bảo trì** |
+| **AI** | CLI gọi thủ công (Claude Code/Copilot) | ✅ **AI Agent always-on** (OpenClaw) + **Zalo/Telegram** + **cron tự bảo trì** |
 | **Graph view** | Mặc định (rối) | ✅ **Tô màu sẵn theo từng phòng** |
 | **Cấu trúc** | PARA *hoặc* Zettelkasten thuần | ✅ **Hybrid**: Phòng tri thức đời sống + PARA + Zettelkasten + MOC + CODE |
 | **Phòng trống** | Để trống, khó bắt đầu | ✅ Mỗi phòng có **Mục lục tự liệt kê** (Dataview) |
@@ -122,7 +122,7 @@ Chi tiết đầy đủ: đọc **[Hiến pháp Vault](99_Hệ_thống/vault-con
 
 ## 🤖 (Tùy chọn) Kết nối AI Agent — điểm ăn tiền
 
-Vault được thiết kế để **OpenClaw** vận hành cùng bạn: tự quét vault theo lịch, đề xuất dọn dẹp/ôn tập, và **nhắn tin hỏi ý kiến bạn qua Zalo trước khi làm gì** (không bao giờ tự xóa file).
+Vault được thiết kế để **OpenClaw** vận hành cùng bạn: tự quét vault theo lịch, đề xuất dọn dẹp/ôn tập, và **nhắn tin hỏi ý kiến bạn qua Zalo/Telegram trước khi làm gì** (không bao giờ tự xóa file).
 
 👉 Xem **[Hướng dẫn Cài đặt OpenClaw](99_Hệ_thống/Hướng%20dẫn%20Cài%20đặt%20OpenClaw.md)** và điền thông tin vào **[AGENT.md](AGENT.md)**.
 
@@ -148,5 +148,5 @@ Repo kèm sẵn cấu hình Graph (`.obsidian/graph.json`): mỗi phòng một m
 
 ## 🙌 Tác giả & Đóng góp
 
-Làm bởi **Kent — MonkeyTech192** như một món quà mở cho cộng đồng người Việt yêu Obsidian & PKM.
+Làm bởi **tuanminhhole (Kent)** như một món quà mở cho cộng đồng người Việt yêu Obsidian & PKM.
 Mọi góp ý / PR cải tiến khung đều được hoan nghênh. Nếu thấy hữu ích, hãy ⭐ repo để nhiều người biết tới nhé!
